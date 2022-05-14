@@ -44,6 +44,11 @@ ul{
 }
 .country-info__item{
   font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+.country-info__item:last-child{
+  margin-bottom: 0;
 }
 .country-info__text-wrap{
   font-weight: 400;
