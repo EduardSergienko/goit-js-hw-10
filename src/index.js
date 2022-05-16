@@ -29,9 +29,8 @@ function onSearch() {
         }
       })
       .catch(error => {
-        if (error) {
-          Notify.failure('Oops, there is no country with that name');
-        }
+        console.log(error);
+        Notify.failure('Oops, there is no country with that name');
       });
   }
 }
